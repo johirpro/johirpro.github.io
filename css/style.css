@@ -1,0 +1,77 @@
+/**
+ * GLOBAL SECTION
+ */
+body {
+	max-width: 80%;
+	min-width: 320px;
+	margin: 0 auto;
+}
+
+#main-wrapper{
+	padding: 0 20px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/**
+ * HEADER SECTION
+ */
+#header-wrapper{
+	padding-bottom: 20px;
+}
+
+.bio {
+	width: 143px;
+	height: 175px;
+	float: left;
+}
+
+.profile {
+	padding: 15px 0 0 180px;
+}
+
+.profile h1 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.profile .so-flair {
+	width: 208px;
+	float: left;
+	padding: 0 208px 5px 0;
+	border: 2px solid #d1d5da;
+	border-radius: 3px;
+	margin-right: 20px;
+}
+
+
+/**
+* MAIN CONTENT SECTION
+*/
+#content-wrapper .leftcol {
+	width: 41%;
+	float: left;
+}
+
+#content-wrapper .rightcol {
+	width: 51%;
+	padding-left: 10%;
+	overflow: hidden;
+}
+/*
+#content-wrapper .left-item {
+	width: 150px;
+	float: left;
+}
+
+#content-wrapper .right-item {
+	/*width: 150px;*/
+}*/
+
+/**
+* FOOTER SECTION
+*/
