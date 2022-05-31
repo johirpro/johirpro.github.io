@@ -48,7 +48,6 @@ body {
 	margin-right: 20px;
 }
 
-
 /**
 * MAIN CONTENT SECTION
 */
@@ -62,15 +61,26 @@ body {
 	padding-left: 10%;
 	overflow: hidden;
 }
-/*
-#content-wrapper .left-item {
-	width: 150px;
-	float: left;
+
+li .collapsible-header i {
+	width: 2rem;
+	font-size: 1.6rem;
+	line-height: 3rem;
+	float: none;
+	display: unset;
+	vertical-align: middle;
 }
 
-#content-wrapper .right-item {
-	/*width: 150px;*/
-}*/
+li .collapsible-header .caret {
+	margin-right: 0;
+	float: right;
+	vertical-align: middle;
+	transition: transform 0.2s ease;
+}
+
+li.active .collapsible-header .caret {
+	transform: rotate(-180deg);
+}
 
 /**
 * FOOTER SECTION
