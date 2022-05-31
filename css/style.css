@@ -9,6 +9,7 @@ body {
 
 #main-wrapper{
 	padding: 0 20px;
+	/*background-color: #eee;*/
 }
 
 .clearfix::after {
@@ -43,7 +44,7 @@ body {
 	width: 208px;
 	float: left;
 	padding: 0 208px 5px 0;
-	border: 2px solid #d1d5da;
+	/*border: 2px solid #d1d5da;*/
 	border-radius: 3px;
 	margin-right: 20px;
 }
@@ -52,12 +53,12 @@ body {
 * MAIN CONTENT SECTION
 */
 #content-wrapper .leftcol {
-	width: 41%;
+	width: 45%;
 	float: left;
 }
 
 #content-wrapper .rightcol {
-	width: 51%;
+	width: 55%;
 	padding-left: 10%;
 	overflow: hidden;
 }
