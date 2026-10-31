@@ -1,0 +1,99 @@
+.devto-section {
+    width: 100%;
+    padding: 25px;
+    margin: 30px 0;
+    background: #fff;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.devto-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+
+.devto-heading h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.devto-heading a {
+    color: #0a7aff;
+    text-decoration: none;
+}
+
+.devto-articles {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.devto-card {
+    border: 1px solid #e5e5e5;
+    border-radius: 6px;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+.devto-card img {
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+}
+
+.devto-card-content {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.devto-card h3 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 0 0 10px;
+}
+
+.devto-card h3 a {
+    color: #222;
+    text-decoration: none;
+}
+
+.devto-card h3 a:hover {
+    color: #0a7aff;
+}
+
+.devto-card p {
+    font-size: 14px;
+    color: #666;
+}
+
+.devto-meta {
+    font-size: 12px;
+    color: #888;
+    margin-top: auto;
+    padding-top: 12px;
+}
+
+.devto-tags {
+    margin-top: 10px;
+    font-size: 12px;
+    color: #0a7aff;
+}
+
+@media (max-width: 768px) {
+    .devto-articles {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 480px) {
+    .devto-articles {
+        grid-template-columns: 1fr;
+    }
+}
