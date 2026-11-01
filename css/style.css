@@ -189,6 +189,11 @@ em {
     color: #07151a
 }
 
+.secondary {
+    background: #4d5b7a;
+    color: #feffff
+}
+
 .ghost {
     border: 1px solid #405165;
     background: none;
